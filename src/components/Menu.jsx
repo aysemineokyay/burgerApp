@@ -1,11 +1,11 @@
-import { MenuItem } from "../components/MenuItem";
 import { Data } from "../helpers/Data";
+import MenuItem from "./MenuItem";
 
 const Menu = () => {
   return (
-    <div>
-      <h1 className="text-lg">Burgerlerimiz</h1>
-      <div className="flex flex-wrap">
+    <div className="">
+      <h1 className="text-5xl text-center my-10">Burgerlerimiz</h1>
+      <div className="flex flex-row flex-wrap justify-center items-center gap-5 mb-5">
         {Data.map((item, index) => {
           return (
             <MenuItem

@@ -7,11 +7,19 @@ const Navbar = () => {
       <div className="">
         <img src={BurgerLogo} className="w-30 h-20" alt="" />
       </div>
-      <div className="flex gap-10  text-white">
-        <Link to="/">Anasayfa</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/aboutUs">Hakkımızda</Link>
-        <Link to="/contact">İletişim</Link>
+      <div className="flex gap-20 text-white px-20 ">
+        <Link to="/" className="hover:text-slate-200">
+          Anasayfa
+        </Link>
+        <Link to="/menu" className="hover:text-slate-200">
+          Menu
+        </Link>
+        <Link to="/aboutUs" className="hover:text-slate-200">
+          Hakkımızda
+        </Link>
+        <Link to="/contact" className="hover:text-slate-200">
+          İletişim
+        </Link>
       </div>
     </div>
   );
