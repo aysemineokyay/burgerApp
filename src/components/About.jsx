@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center m-10 gap-5">
+    <div className="flex flex-col justify-center items-center m-10 gap-5 h-[90vh] ">
       <div className=" bg-[url('./assets/banneryeni.jpg')] bg-no-repeat bg-center bg-cover w-full h-[500px]"></div>
       <div className="flex flex-col items-center ">
         <h1 className="text-5xl mb-5">Hakkımızda</h1>

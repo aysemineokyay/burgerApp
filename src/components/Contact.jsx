@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <div className="flex my-20">
+    <div className="flex justify-center items-center h-[90vh]">
       <div className="bg-[url('./assets/banner.png')] bg-no-repeat bg-contain bg-center w-2/4 h-[640px]"></div>
-      <div className="flex flex-col gap-5 px-5 pr-20">
+      <div className="flex flex-col gap-5 px-5 justify-center">
         <h1 className="text-5xl mb-5">Bizimle İletişime Geçin</h1>
         <form className="flex flex-col">
           <label className="block mb-5">
